@@ -1,0 +1,488 @@
+body
+{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /*height: 650px; */
+    
+    font-family:'Amiri', serif;
+}
+.Container
+{
+   /* position: relative;*/
+    width: 1536px; /*1535*/
+    height: 631px;  /*631*/
+    /*background: linear-gradient(to bottom left, #000000 21%, #33ccff 200%);*/
+    /*background: linear-gradient(to bottom, #993333 -15%, #000000 57%);*/
+   /* background: linear-gradient(to bottom, #993333 -173%, #000000 84%);*/
+   /*background: linear-gradient(to bottom, #993333 -480%, #000000 79%);*/
+   background: linear-gradient(to bottom, #3e4444 -500%, #000000 150%);
+}
+.Container .Menu
+{
+/*position: relative;*/
+height: 630px;
+width: 1px;
+display: inline-table;
+list-style-type: none;
+color: whitesmoke;
+background-color: black;
+float: left;
+/*box-sizing: border-box;*/
+font-size: medium;
+}
+.Menu li{
+    padding: 7px 40px;
+    font-family: 'Mukta', sans-serif;
+}
+li{
+    cursor: pointer;
+}
+.brand img
+{
+    position: sticky;
+    width: 230px;
+    padding: 0px 20px;
+}
+.brand
+{
+    position: sticky;
+    align-items: center;
+    font-weight: bolder; 
+    font-size: 2.9rem;
+}
+.Container .list
+{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    /*background: black;*/
+   /* background: linear-gradient(to bottom, #3e4444 -500%, #000000 90%);*/
+   /* background: linear-gradient(to bottom, #993333 -190%, #000000 79%);*/
+   background: linear-gradient(to bottom, #ffcc00 -500%, #000000 75%);
+   cursor: pointer;
+   transition: 1s;
+}
+.list:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(to bottom, #ffcc00 -49%, #000000 100%);
+}
+.list #log
+{
+    width: 60px;
+    height: 45px;
+    float: right;
+    transition: 0.4s;
+}
+#log img{
+    display: block;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+#log:hover{
+    transform:scale(1.3) ;
+    z-index: 2;
+}
+.list .dar{
+    width: 152px;
+    height: 175px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-radius: 5px;
+}
+.dar img
+{
+   width: 166px;
+   height: 166px;
+   border-radius: 5px;
+
+}
+.list li
+{
+    font-size: 19px;
+    color: whitesmoke;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-family: 'Mukta', sans-serif;
+}
+.art 
+{
+    font-size: 16px;
+    color: gray;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.Container .list2
+{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    /*background: black;*/
+    /*background: linear-gradient(to top, #993333 -40%, #0b0b0b 68%);*/
+    /*background: linear-gradient(to bottom, #993333 -190%, #000000 79%);*/
+    /*background: linear-gradient(to bottom, #ccffcc -400%, #000000 100%);*/
+    background: linear-gradient(to bottom, #993366 -277%, #000000 100%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+.list2:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(to bottom, #993366 -49%, #000000 100%);
+    
+}
+.list2 #log2
+{
+    width: 60px;
+    height: 45px;
+    float: right;
+    transition: 0.4s;
+}
+#log2 img{
+    display: block;
+    padding-right: 5px;
+    padding-top: 28px;
+    width: 40px;
+    height: 40px;
+}
+#log2:hover{
+    transform:scale(1.3) ;
+    z-index: 2;
+}
+.list2 .momin
+{
+    height: 152px;
+    width: 190px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-radius: 5px;
+}
+.momin img
+{
+    height: 166px;
+    width: 166px;
+    border-radius: 5px;
+}
+.momi
+{
+    font-size: 16px;
+    color: gray;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 38px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.Container .list3
+{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    /*background: black;*/
+    /*background: linear-gradient(to bottom, #993333 -190%, #000000 79%);*/
+    background: linear-gradient(to bottom, #ff6666 -400%, #000000 100%);
+    cursor: pointer;
+    
+    transition: 0.9s;
+}
+.list3:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(to bottom, #ff6666 -49%, #000000 100%);
+}
+.list3 #log3
+{
+    width: 60px;
+    height: 45px;
+    float: right;
+    transition: 0.4s;
+    cursor: pointer;
+}
+#log3 img{
+    display: block;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+#log3:hover{
+    transform:scale(1.3) ;
+    z-index: 2;
+}
+
+.list3 .arijit
+{
+    height: 174px;
+    width: 182px;
+    list-style-type: none;
+    padding-left: 16px;
+    padding-top: 16px;
+   
+
+}
+.arijit img
+{
+    height: 166px;
+    width: 166px;
+    border-radius: 5px;
+}
+.ari
+{
+    font-size: 16px;
+    color: gray;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.Container .list4
+{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    /*background: black;*/
+    /*background: linear-gradient(to bottom, #993333 -190%, #000000 79%);*/
+    background: linear-gradient(to bottom, #003399 -277%, #000000 100%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+.list4:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(to bottom, #003399 -49%, #000000 100%);
+}
+.list4 #log4
+{
+    width: 60px;
+    height: 45px;
+    float: right;
+    transition: 0.4s;
+}
+#log4 img{
+    display: block;
+    padding-right: 5px;
+    padding-top: 0px;
+    width: 40px;
+    height: 40px;
+}
+#log4:hover{
+    transform:scale(1.3) ;
+    z-index: 2;
+}
+.list4 .ayushman
+{
+    height: 180px;
+    width: 182px;
+    list-style-type: none;
+    padding-left: 16px;
+    padding-top: 16px;
+
+}
+.ayushman img
+{
+    height: 166px;
+    width: 166px;
+    border-radius: 5px;
+}
+.ayush
+{
+    font-size: 16px;
+    color: gray;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 8px;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.Container .list5
+{
+    position: relative;
+    height: 250px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #ff3300 -277%, #000000 100%);
+    cursor: pointer;
+    transition: 0.9s;
+}
+.list5:hover{
+    transform:scale(1.1) ;
+    background: linear-gradient(to bottom, #ff3300 -49%, #000000 100%);
+}
+.list5 #log5
+{
+    width: 60px;
+    height: 45px;
+    float: right;
+    transition: 0.4s;
+}
+#log5 img{
+    display: block;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+#log5:hover{
+    transform:scale(1.3) ;
+    z-index: 2;
+}
+.list5 .vish
+{
+    height: 174px;
+    width: 182px;
+    list-style-type: none;
+    padding-left: 16px;
+    padding-top: 16px;
+
+}
+.vish img
+{
+    height: 166px;
+    width: 166px;
+    border-radius: 5px;
+   /*box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);*/
+}
+.vishal 
+{
+    font-size: 16px;
+    color: gray;
+    list-style-type: none;
+    padding-left: 20px;
+    padding-top: 14px;
+    font-family: 'Mukta', sans-serif;
+
+}
+.Container .Trending
+{
+    position: relative;
+    height: 322px;
+    width: 1139px; /*1145px*/
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    list-style-type: none;
+   
+    background: linear-gradient(to left, #006699 -400%, #000000 75%);
+   
+    
+
+}
+
+.Trending
+{
+    display: flex;
+}
+#beer{
+    width: 243px;
+    height: 268px;
+    padding-left: 23px;
+    padding-top: 32px;
+    padding-right: 20px;  
+}
+#beer img{
+    width: 243px;
+    height: 268px;
+    border-radius: 10px;
+}
+#show{
+  
+    width: 786px;
+    height: 100px;
+    font-size: 78px;
+    font-family: 'Noto Serif', serif;
+    padding-top: 22px;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.1s;
+}
+#pod{
+    width: 160px;
+    height: 12px;
+    font-family: 'Mukta', sans-serif;
+    padding-top: 117px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#bicep{
+    
+    width: 190px;
+    height: 100px;
+    font-size: 29px;
+    font-family: 'Mukta', sans-serif;
+    color: whitesmoke;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#show::after{
+    content:'';
+    display: block;
+    width: 0px;   /*741*/
+    height: 5px;    /*5px*/
+    background: white;
+    /*background: linear-gradient(to left, #ffcc00 0%, #000000 100%);*/
+    /*background: linear-gradient(to left, #c18136 0%, #000000 100%);*/
+    transition:width .3;
+}
+#show:hover::after{
+    width: 741px;
+    transition:width .9s;
+}
+
+.bottom{
+    position: sticky;
+    color: white;
+    /*background-color: #3e4444;*/
+    background: linear-gradient(to bottom, #3e4444 -500%, #000000 90%);
+   /*background: linear-gradient(to bottom, #a9a9a9 -500%, #000000 100%);*/
+    height: 90px;
+    width: 1536px; /*can be removed*/
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar{
+    color: wheat;
+    height: 1px;
+    width: 500px;
+    cursor: pointer;   
+    padding-top: 2px;
+}
+.icons{
+    margin-top: 25px;
+    padding: 0px 4px;
+}
+.icons i{
+    font-size: 30px;
+    padding: 0px 8px;
+    cursor: pointer;
+    color: wheat;
+}
